@@ -6,15 +6,19 @@
   "description": "over the link like a tap.",
   "license": "MIT",
   "scripts": {
-    "dev": "webextension-toolbox dev",
-    "build": "webextension-toolbox build"
+    "yo:generate": "yo web-extension --skip-install",
+    "webpack": "webpack --mode development",
+    "webpack:production": "webpack --mode production"
+
   },
   "devDependencies": {
-    "webextension-toolbox": "latest",
     "generator-web-extension": "^0.0.5",
+    "webextension-toolbox": "latest",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
     "yo": "^2.0.5"
   },
-  "scripts": {
-    "yo:generate": "yo web-extension --skip-install"
+  "dependencies": {
+    "quicklink": "^1.0.0"
   }
 }
