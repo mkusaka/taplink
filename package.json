@@ -1,0 +1,15 @@
+{
+  "name": "taplink",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mkusaka/taplink.git",
+  "author": "mkusaka <hinoshita1992@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "generator-web-extension": "^0.0.5",
+    "yo": "^2.0.5"
+  },
+  "scripts": {
+    "yo:generate": "yo web-extension --skip-install"
+  }
+}
