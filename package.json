@@ -1,11 +1,16 @@
 {
   "name": "taplink",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.0.1",
   "repository": "https://github.com/mkusaka/taplink.git",
   "author": "mkusaka <hinoshita1992@gmail.com>",
+  "description": "over the link like a tap.",
   "license": "MIT",
+  "scripts": {
+    "dev": "webextension-toolbox dev",
+    "build": "webextension-toolbox build"
+  },
   "devDependencies": {
+    "webextension-toolbox": "latest",
     "generator-web-extension": "^0.0.5",
     "yo": "^2.0.5"
   },

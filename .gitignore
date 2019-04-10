@@ -1,3 +1,6 @@
+node_modules/
+dist/
+packages/
 ### https://raw.github.com/github/gitignore/44cbb3686c18f634a488ea123d1148ca9a64fa22/Node.gitignore
 
 # Logs
