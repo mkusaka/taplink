@@ -3,8 +3,7 @@ import { fakeBrowser } from "@webext-core/fake-browser";
 import { afterEach, beforeEach } from "vitest";
 import { cleanupTaplink } from "../src/content-logic";
 
-(global as typeof globalThis & { chrome: typeof fakeBrowser }).chrome =
-  fakeBrowser;
+(globalThis as unknown as { chrome: typeof fakeBrowser }).chrome = fakeBrowser;
 
 beforeEach(() => {
   fakeBrowser.reset();

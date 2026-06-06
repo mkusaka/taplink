@@ -43,8 +43,8 @@ export const isConstrainedConnection = (
 
   return Boolean(
     connection.saveData ||
-      connection.effectiveType === "slow-2g" ||
-      connection.effectiveType === "2g",
+    connection.effectiveType === "slow-2g" ||
+    connection.effectiveType === "2g",
   );
 };
 
